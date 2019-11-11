@@ -106,7 +106,6 @@ namespace TicTakToe.Controllers
                 return true;
 
             return false;
-
         }
 
         // PUT: api/Game/5
