@@ -114,8 +114,8 @@ namespace TicTakToe.Controllers
         {
         }
 
-        // DELETE: api/Game/5
-        public void Delete(int id)
+        // DELETE: api/Game/
+        public string Delete()
         {
             board = new List<List<char>>()
         {
@@ -132,6 +132,8 @@ namespace TicTakToe.Controllers
                 '-','-','-'
             }
             };
+
+            return "Game Restarted";
         }
     }
 }
